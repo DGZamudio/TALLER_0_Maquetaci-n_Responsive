@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grid2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid-layout">
+        <div class="logo">
+            <img src="img/Hotelia horizontal blanco.svg" alt="">
+            <p>Eres mas que bienvenido.</p>
+        </div>
+        <div class="container">
+            <form action="dashboard.html">
+                <div class="op">                
+                    <label for="select">Tipo de documento</label><br>
+                    <select name="select">
+                        <option value="value1" selected>Escoja una opcion</option>
+                        <option value="value2">CC</option>
+                        <option value="value3">TI</option>
+                    </select>
+                </div>
+                <div class="op">
+                    <label for="">Numero de documento</label><br>
+                    <input type="number">
+                </div>
+                <div class="op">
+                    <label for="">Nombres</label><br>
+                    <input type="text">
+                </div>
+                <div class="op">
+                    <label for="">Apellidos</label><br>
+                    <input type="text">
+                </div>
+                <div class="op">
+                    
+                <label for="">Fecha de nacimiento</label><br>
+                <input type="date">
+                </div>
+                <div class="op">
+                    <label for="">Genero</label><br>
+                    <input type="radio" id="hombre" value="hombre" name="Genero"><label for="hombre">Hombre</label>
+                    <input type="radio" id="mujer" value="mujer" name="Genero"><label for="mujer">Mujer</label>
+                    <input type="radio" id="otro" value="otro" name="Genero"><label for="otro">Otro</label>
+                </div>
+                <div class="op">
+                    <label for="">Email</label><br>
+                    <input type="email">
+                </div>
+                <div class="op">
+                    <label for="">Telefono de contacto</label><br>
+                    <input type="text">
+                </div>
+                <div class="op">
+                    <label for="pais">Pais de origen</label><br>
+                    <select name="pais">
+                        <option value="value1" selected>Escoja una opcion</option>
+                        <option value="value2">Colombia</option>
+                        <option value="value3">Estados Unidos</option>
+                    </select>
+                </div>
+                <div class="op">
+                    <label for="">Foto</label><br>
+                    <input type="file">
+                </div>
+                <div class="op">
+                    <label for="">Contraseña</label><br>
+                    <input type="password">
+                </div>
+                <div class="op">
+                    <label for="">Confirmar contraseña</label><br>
+                    <input type="password">
+                </div>
+                <div class="full-width">
+                    <a href=""><p>Acepto Terminos y Condiciones</p></a>
+                    <input type="submit" value="Ingresar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

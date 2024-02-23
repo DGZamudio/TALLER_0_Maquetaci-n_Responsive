@@ -15,7 +15,7 @@ img{
 .container{
  background-image: url('../img/login/vector-login.svg');
  background-repeat: no-repeat;
- background-color:rgba(127, 182, 255, 0.76);
+ background-color:rgba(0, 56, 129, 0.788);
  display: flex;
  align-items: center;
  justify-content: center;
@@ -30,19 +30,17 @@ form{
     color: aliceblue;
 }
 input{
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    color: aliceblue;
-    border-radius: 5px;
+    height: 25px;
+    width: 80%;
+    border-radius: 2px;
+    border: 1px;
 }
 input[type="submit"] {
     background-color: black;
     margin-top: 8%;
-    padding-left: 33%;
-    padding-right: 33%;
     font-size: 25px;
+    height: 35px;
+    color: aliceblue;
 }
 body{
     background-image: url('../img/login/bg-login.png');
